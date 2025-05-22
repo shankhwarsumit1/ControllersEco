@@ -8,8 +8,4 @@ router.post('/',productController.addNewProduct)
 
 router.get('/:id',productController.getProductsById)
 
-router.put('/:id',productController.putRequestProduct)
-
-router.delete('/:id',productController.deleteReqProduct)
-
 module.exports=router;
