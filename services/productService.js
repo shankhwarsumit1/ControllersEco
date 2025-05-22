@@ -1,5 +1,8 @@
+const path = require('path');
+
 const getAllProducts = ()=>{
-    return `Fetching all products`;
+    const pathOfFile = path.join(__dirname,"../view/product.html");
+    return pathOfFile;
 };
 
 const getSingleProductById  = (id)=>{
