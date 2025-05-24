@@ -4,13 +4,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start":"node ./server.js"
+=======
+    "start": "node ./server.js"
+>>>>>>> 4f8477f (Initial commit with centralized error handling)
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^5.1.0"
+=======
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+>>>>>>> 4f8477f (Initial commit with centralized error handling)
   }
 }
